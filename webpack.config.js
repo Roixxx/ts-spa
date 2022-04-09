@@ -60,7 +60,7 @@ module.exports = {
     assetModuleFilename: '[path][name].[ext]'
   },
   devServer: {
-    port: 4200,
+    port: 5200,
     open: true,
     watchFiles: `${SRC}/**/*.pug`
   },

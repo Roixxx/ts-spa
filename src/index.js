@@ -1,5 +1,6 @@
 // project styles
 import '@/scss/styles';
 
-// UI components scripts
-import '@/components/_ui/popup/popup';
+import App from '@/scripts';
+const app = new App();
+app.run();
