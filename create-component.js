@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-let basePath = './src/components/';
+let basePath = './src/pages/';
 const files = {
   pug: `mixin {component}\n  .{component}`,
   scss: `.{component} {\n  \n}`,
